@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="form">
+        <div class="main">
+          <div>Name</div>
+          <input type="text" placeholder="Enter your name" id="name" value="" />
+        </div>
+        <div class="main">
+          <div class="second-line">
+            <div>Desired Salary</div>
+            <input
+              type="number"
+              placeholder="Salary"
+              id="desired-salary"
+              class="input"
+            />
+          </div>
+          <div class="second-line">
+            <div>Birthday</div>
+            <input type="date" id="birthday" class="input" />
+          </div>
+        </div>
+        <div class="main">
+          <div>Phone</div>
+          <input
+            type="number"
+            placeholder="Enter phone number"
+            id="phone"
+            class="input"
+          />
+        </div>
+        <button id="button" onclick="validate()">Submit</button>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

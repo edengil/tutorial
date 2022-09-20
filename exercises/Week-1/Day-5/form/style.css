@@ -1,0 +1,53 @@
+body {
+  font-family: helvetica;
+}
+
+#container {
+  position: relative;
+  background-color: #1a50bc;
+  display: inline-block;
+  padding: 40px;
+}
+
+#form {
+  position: relative;
+  width: 350px;
+  height: 300px;
+}
+
+.main {
+  margin: 12px;
+}
+
+.second-line {
+  display: inline-block;
+}
+
+#error-message {
+  color: red;
+  position: absolute;
+}
+
+#name {
+  width: 50%;
+}
+
+#desired-salary {
+  width: 150px;
+}
+
+#birthday {
+  width: 50%;
+}
+
+#button {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #dce0e4;
+  color: #162728;
+  border: #2c547c solid 3px;
+
+  height: 35px;
+  border-radius: 5%;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery101</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 3 -->
+    <!-- <script id="store-template" type="text/x-handlebars-template">
+      <div>
+        <span> {{ item }} </span> - <span>{{ price }} Dollars </span>
+      </div>
+    </script>
+    
+    <div class="items">
+    </div>
+    </script> -->
+    <!-- 3 -->
+    <!-- 5 -->
+    <div>
+      <input type="text" placeholder="Max Price" value="" />
+      <button>Search</button>
+    </div>
+
+    <script id="menu-template" type="text/x-handlebars-template">
+      <ul>
+        {{#each menu}}
+          <li><a href="{{link}}">{{name}}</a></li>
+        {{/each}}
+      </ul>
+    </script>
+
+    <div class="menu"></div>
+    <script id="classmates-template" type="text/x-handlebars-template">
+      {{#each classmates}}
+        <div>{{name}} id id id {{description}}</div>
+      {{/each}}
+    </script>
+    <div class="menu"></div>
+
+    <script id="first-template" type="text/x-handlebars-template">
+
+
+      My text:
+      {{text}}
+    </script>
+
+    <div id="normal">Regular HTML Stuff</div>
+
+    <script id="second-template" type="text/x-handlebars-template">
+
+
+      My HB text:
+      {{moreText}}
+    </script>
+
+    <p id="special"></p>
+
+    <script id="animals-template" type="text/x-handlebars-template">
+      {{this}}
+    </script>
+
+    <p id="animals"></p>
+
+    <script id="languages-template" type="text/x-handlebars-template">
+      {{this}}
+    </script>
+
+    <p id="languages"></p>
+
+    <!-- 5 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

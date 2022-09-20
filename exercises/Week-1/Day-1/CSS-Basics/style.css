@@ -1,0 +1,27 @@
+.box{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border:solid;
+}
+.button{
+    background-color: rgb(30, 170, 54);
+    border:groove;
+    border-color:rgb(30, 170, 54); ;
+
+}
+     #container  {
+        display: inline-block;
+        background-color: #ddd;
+        box-shadow: #ddd;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+
+      }
+       #first {
+        background-color: rgb(14, 164, 14);
+      }
+
+      #second {
+        background-color: orange;
+      }
+

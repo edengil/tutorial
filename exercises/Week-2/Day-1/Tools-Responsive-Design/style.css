@@ -1,0 +1,11 @@
+.text {
+  background-color: #f39c12;
+  max-width: 60%;
+  min-height: 5px;
+  font-size: 2vw;
+}
+@media (max-width: 1000px) {
+  .text {
+    background-color: aqua;
+  }
+}
