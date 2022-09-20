@@ -65,8 +65,7 @@ async def sentence(request: Request):
 
     numOldWords = len(words) - numNewWords
     return {"text": f"Added {numNewWords} words, {numOldWords} already existed", "currentCount": -1}
-
-
+# num = 0
 @app.get("/delete/{word}")
 async def delete(word):
     for item in wordCounter:
@@ -74,6 +73,10 @@ async def delete(word):
             word.clear()
             return {"delete": word}
     return {"delet": "Noting to delete"}
+
+
+
+
 
 
 if __name__ == "__main__":
